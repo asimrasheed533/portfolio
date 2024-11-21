@@ -6,7 +6,7 @@ export default function page() {
     <>
       <div className="banner__container">
         <div className="banner__text__col">
-          <div className="banner__text__title">i am Asim Rasheed</div>
+          <div className="banner__text__title">I'm Asim Rasheed</div>
           <div className="banner__text__heading">
             Web Developer+ <br />
             UI/UX Designer
