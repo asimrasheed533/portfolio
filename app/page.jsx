@@ -16,7 +16,7 @@ export default function page() {
             focussed solutions that connect billions of people.
           </div>
           <div className="banner__text__button">
-            <button className="banner__button">Contact Me</button>
+            <button className="banner__button">Download CV</button>
             <button className="banner__button__social"></button>
           </div>
         </div>
@@ -28,6 +28,64 @@ export default function page() {
             width={350}
             height={600}
           />
+        </div>
+      </div>
+      <div className="scroll__container">
+        <div className="scroll__container__inner">
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+14</div>
+            <div className="scroll__subtitle">Year of Experience</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+30</div>
+            <div className="scroll__subtitle">Website Completed</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+150</div>
+            <div className="scroll__subtitle">
+              Happy <br /> Client
+            </div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+30</div>
+            <div className="scroll__subtitle">Website Completed</div>
+          </div>
+        </div>
+        <div className="scroll__container__inner">
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+14</div>
+            <div className="scroll__subtitle">Year of Experience</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+30</div>
+            <div className="scroll__subtitle">Website Completed</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+150</div>
+            <div className="scroll__subtitle">Happy Client</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+30</div>
+            <div className="scroll__subtitle">Website Completed</div>
+          </div>
+        </div>
+        <div className="scroll__container__inner">
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+14</div>
+            <div className="scroll__subtitle">Year of Experience</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+30</div>
+            <div className="scroll__subtitle">Website Completed</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+150</div>
+            <div className="scroll__subtitle">Happy Client</div>
+          </div>
+          <div className="scroll__text__warper">
+            <div className="scroll__title">+30</div>
+            <div className="scroll__subtitle">Website Completed</div>
+          </div>
         </div>
       </div>
     </>
