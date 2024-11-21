@@ -6,9 +6,6 @@
   max-width: 1366px;
   margin: 0 auto;
   padding: 0 2em;
-  background-color: rgb(27, 27, 27);
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
   padding: 1em;
 }
 .nav__log {
@@ -39,6 +36,18 @@
   transition: 300ms ease-in-out;
   color: white;
   text-decoration: none;
+}
+.nav__entry__item__logo {
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }
 .nav__entry__item.active {
   color: #dd9747;
@@ -139,7 +148,7 @@
     top: 0px;
     left: 0px;
     transition: 300ms ease-in-out;
-    width: 200px;
+    width: 270px;
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
     background-color: rgb(80, 80, 80);
@@ -149,11 +158,11 @@
     animation: dropdown__list__nav__animation 500ms both;
     padding: 1em;
     padding-top: 5em;
-    /* From https://css.glass */
     background: rgba(15, 12, 0, 0.822);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    margin-bottom: 1em;
   }
   .header__container__menu__icon {
     display: flex;
@@ -169,10 +178,10 @@
   }
 }
 @media (max-width: 700px) {
+  .nav__entry__item__logo {
+    flex-direction: column;
+  }
   .nav__register {
     flex: unset;
   }
-  // .nav__register__button {
-  //   display: none;
-  // }
 }

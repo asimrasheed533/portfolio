@@ -36,15 +36,10 @@ export default function Header({ token }) {
         <div className="nav__bar__container">
           {isOpenMenu ? (
             <div className="nav__entry">
-              <Link
-                href="/"
-                className={`nav__entry__item ${
-                  pathname === "/" ? "active" : ""
-                }`}
-              >
+              <Link href="/" className="nav__entry__item__logo">
                 <svg
-                  width="32"
-                  height="32"
+                  width="52"
+                  height="52"
                   viewBox="0 0 32 32"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,6 +53,7 @@ export default function Header({ token }) {
                     fill="white"
                   />
                 </svg>
+                asimrasheed44dev@gmail.com
               </Link>
               <Link
                 href="/"
@@ -67,7 +63,6 @@ export default function Header({ token }) {
               >
                 Home
               </Link>
-
               <>
                 <Link
                   href="/order"
@@ -86,7 +81,6 @@ export default function Header({ token }) {
                   Reviews
                 </Link>
               </>
-
               <Link
                 href="/contact"
                 className={`nav__entry__item ${
